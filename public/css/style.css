@@ -1,0 +1,40 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* Styling for the jug animation */
+.jug-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 200px;
+    width: 100px;
+}
+
+.jug {
+    width: 100px;
+    height: 200px;
+    border: 4px solid #4f5358;
+    border-radius: 0 0 50px 50px;
+    position: relative;
+    overflow: hidden;
+    background-color: transparent;
+}
+
+.water {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 0%;
+    background-color: #0d6efd;
+    transition: height 1s linear;
+}
+
+#time {
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+
+.controls button {
+    width: 120px;
+}
