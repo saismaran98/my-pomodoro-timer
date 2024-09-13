@@ -1,0 +1,38 @@
+# Node.js
+node_modules
+npm-debug.log
+yarn-debug.log*
+yarn-error.log*
+package-lock.json
+.env
+
+# Logs
+logs
+*.log
+logs/*.log
+
+# Dependency directories
+/.pnp
+.pnp.js
+
+# Editor directories and files
+.idea/
+.vscode/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Optional build files
+/dist
+/build
+
+# Coverage directory used by testing tools like jest
+coverage
+
+# Ignore any files related to Git
+.git/
